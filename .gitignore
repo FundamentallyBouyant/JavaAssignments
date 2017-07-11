@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 #IntelliJ file
 *.iml
 /.idea
 
 
+=======
+>>>>>>> 05c50a92df54308c88bf89c87d2f43491d319e7f
 # Compiled class file
 *.class
 
@@ -25,5 +28,8 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 05c50a92df54308c88bf89c87d2f43491d319e7f
