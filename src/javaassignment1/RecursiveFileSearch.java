@@ -67,7 +67,7 @@ class RecursiveFileSearch {
         while(exit==false) {
 
             Scanner sc = new Scanner(System.in);
-            String path = "/home";
+            String path = System.getProperty("user.home");
             System.out.println("Enter regex pattern to match file name : ");
             String fileRegex = "";
             fileRegex = sc.next();

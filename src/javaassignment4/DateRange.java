@@ -39,7 +39,7 @@ public class DateRange {
 
     /**
      * Gives date range for the KYC application form
-     * @param inputDates DatePair object containing
+     * @param inputDates DatePair object containing signup date and current dates
      * @return String containing date range
      */
     public static String getRange(DatePair inputDates){
