@@ -12,7 +12,7 @@ import java.util.regex.*;
  */
 public class Regex {
     /**
-     * Check whether a string is a sentence (Starts with a capital alphabet, ends with a period
+     * Check whether a string is a sentence (Starts with a capital alphabet, ends with a period)
      * @param s String to check
      * @return true if input is a sentence, false otherwise
      */

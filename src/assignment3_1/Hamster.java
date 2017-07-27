@@ -10,7 +10,7 @@ public class Hamster extends Rodent{
     void doStuff(){
         System.out.println("Hamsters love to run in the hamster wheel.");
     }
-    Hamster(){
+    public Hamster(){
         System.out.println("A wild Hamster appears.");
     }
 }
