@@ -1,7 +1,7 @@
-package jay.assignment.main;
+package jay.assignment1.main;
 
-import jay.assignment.data.Data;
-import jay.assignment.singleton.Singleton;
+import jay.assignment1.data.Data;
+import jay.assignment1.singleton.Singleton;
 
 /**
  * Created by Jay Dadhania on 10/7/17.

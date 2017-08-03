@@ -1,0 +1,35 @@
+Design Patterns Assignment
+by Jay Dadhania
+
+--->javax.xml.transform.TransformerFactory#newInstance()<---
+
+>newInstance() method returns a TransformerFactory object
+
+>newTransformer() method in TransformerFactory implementation returns a Transformer object.
+
+>This is an example of Abstract Factory pattern
+
+
+--->javax.xml.xpath.XPathFactory#newInstance()
+
+>newInstance() method returns a XPathFactory object
+
+>newXPath() method in XPathFactory implementation returns a XPath object.
+
+>This is an example of Abstract Factory pattern
+
+
+--->javax.xml.parsers.DocumentBuilderFactory#newInstance()<---
+
+>newInstance() returns a DocumentBuilderFactory object.
+
+>newDocumentBuilder() method in the DocumentBuilderFactory implementation returns a DocumentBuilder object.
+
+>newDocument() method in the DocumentBuilder implementation returns a Document object.
+
+>Thus, this seems to use the abstract design factory pattern but has one additional level of abstraction
+
+
+
+In all three cases factories are abstract classes with methods to return factory objects (implementation of abstract classes).In the end these factories return the objects required. Hence all three follow abstract factory pattern.
+

@@ -1,4 +1,4 @@
-package jay.assignment.data;
+package jay.assignment1.data;
 
 
 /**
@@ -6,7 +6,7 @@ package jay.assignment.data;
  */
 
 
-/** Data class for DefaultInitializationAssignment.
+/** Data class for DefaultInitializationAssignment
  * @author Jay
  */
 public class Data {
@@ -18,7 +18,8 @@ public class Data {
         System.out.println("The integer is : "+i);
         System.out.println("The character is : "+a);
     }
-    /** Prints variables declared in the method
+    /**
+     * Prints variables declared in the method
      */
     public void printVars(){
         /*int j;
